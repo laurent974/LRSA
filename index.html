@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="image/logoK.png" type="image/x-icon" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-Compatible" content="ie=edge" />
+
+    <!-- TODO: Un seul css pour les gouverner tous -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/perligue.css"/>
+    <link rel="stylesheet" href="css/animation.css"/>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/lightbox.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <title>ligue</title>
+  </head>
+
+  <body>
+    <main class="Main"><!-- .Main -->
+
+      <header class="Header"><!-- .Header -->
+        <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse" role="navigation"><!-- .Nav -->
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img src="image/logor.png" width="30" height="50" alt="">
+          <a class="navbar-brand animated  slideInLeft" href="index.html">Ligue de la Réunion de Sport Adapté <br><small>à chacun son défi </small></a>
+          <div class="collapse navbar-collapse" id="navbarCollapse"><!-- .collapse -->
+            <ul class="navbar-nav mr-auto"><!-- .navbar-nav -->
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Accueil</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  href="laligue.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">La ligue</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="laligue.html">Présentation </a>
+                  <a class="dropdown-item" href="olympiade.html">Olympiade</a>
+                  <a class="dropdown-item" href="projetdevellopement.html">Projet Dévellopement</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Offre sportive</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="sportcompetitif.html">Sport Compétitif</a>
+                  <a class="dropdown-item" href="sportnoncompetitif.html">Sport Non Compétitif</a>
+                  <a class="dropdown-item" href="sportloisir.html">Sport loisir</a>
+                </div>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="association.html">Les associations</a></li>
+              <li class="nav-item"><a class="nav-link" href="formation.html">Formation</a></li>
+              <li class="nav-item"><a class="nav-link" href="galerie.html">Portefolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="agenda.html">Agenda</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul><!-- /.navbar-nav -->
+          </div><!-- /.collapse -->
+        </nav><!-- /.Nav -->
+      </header><!-- /.Header-->
+
+      <section id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000" role="banner"><!-- .carousel -->
+        <ol class="carousel-indicators"><!-- .carousel-indicators -->
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol><!-- /.carousel-indicators -->
+
+        <div class="carousel-inner" role="listbox"><!-- .carousel-inner -->
+          <article class="carousel-item active"><!-- .carousel-item -->
+            <picture>
+              <source srcset="slide/slide1_20001.png" media="(min-width: 1400px)">
+              <source srcset="slide/slide1_14001.png" media="(min-width: 769px)">
+              <source srcset="slide/slide1_8001.png"  media="(min-width: 577px)">
+              <img srcset="slide/slide1_6001.png" alt="responsive image" class="d-block img-fluid">
+            </picture>
+
+            <div class="carousel-caption">
+              <div>
+                <h2>Ligue sport adpaté</h2>
+                <p>A chacun son défi</p>
+                <a href="laligue.php"> <span class="btn btn-sm btn-outline-secondary">En savoir plus</span></a>
+              </div>
+            </div>
+          </article><!-- /.carousel-item -->
+
+          <article class="carousel-item"><!-- .carousel-item -->
+            <picture>
+              <source srcset="slide/slide2_20002.png" media="(min-width: 1400px)">
+              <source srcset="slide/slide2_14001.png"  media="(min-width: 769px)">
+              <source srcset="slide/slide2_8001.png" media="(min-width: 577px)">
+              <img srcset="slide/slide2_6001.png" alt="responsive image" class="d-block img-fluid">
+            </picture>
+
+            <div class="carousel-caption justify-content-center align-items-center">
+                <div>
+                    <h2>Sport compétitif</h2>
+                    <p>Découvrez nos activités</p>
+                  <a href="sportcompetitif.php"><span class="btn btn-sm btn-outline-secondary">En savoir plus</span></a>
+                </div>
+            </div>
+          </article><!-- /.carousel-item -->
+
+          <article class="carousel-item"><!-- .carousel-item -->
+            <picture>
+              <source srcset="slide/slide3_20002.png" media="(min-width: 1400px)">
+              <source srcset="slide/slide3_14003.png"  media="(min-width: 769px)">
+              <source srcset="slide/slide3_8001.png" media="(min-width: 577px)">
+              <img srcset="slide/slide3_6001.png" alt="responsive image" class="d-block img-fluid">
+            </picture>
+
+            <div class="carousel-caption justify-content-center align-items-center">
+              <div>
+                <h2>Nos Evènement</h2>
+                <p>Tout au long de l'année</p>
+                <a href="agenda.php"> <span class="btn btn-sm btn-secondary">En savoir plus </span></a>
+              </div>
+            </div>
+          </article><!-- /.carousel-item -->
+        </div><!-- /.carousel-inner -->
+
+        <a rel="nofollow" rel="noreferrer"class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a rel="nofollow" rel="noreferrer"class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </section><!-- /.carousel -->
+      <div class="container-fluid separation"></div>
+
+      <section id="contenuaccueil"><!-- #contenuaccueil -->
+        <hr class="featurette-divider">
+
+        <h1 id="racourciolympiade" class="texte-center animated infinite bounce">
+          <a href="olympiade.html"><img  src="image/logo/logoattention.png" class="img-responsive" width="50" height="50" alt="">NEW OLYMPIADE 2017-2021</a>
+        </h1>
+
+        <h2 class="text-center" href="olympiade.html">
+          En savoir plus <a class="btn btn-warning btn-large text-center" href="olympiade.html"><i class="icon-chevron-sign-down "></i> Cliquez ici</a>
+        </h2>
+
+        <hr class="featurette-divider">
+
+        <div class="de"><!-- .de -->
+          <h2 class="text-center animated  slideInLeft">Atelier de Jour</h2>
+        </div><!-- /.de -->
+
+        <hr class="featurette-divider">
+
+        <div class="container-fluid qui"><!-- .qui -->
+          <div class="row"><!-- .row -->
+            <div class="col-sm-6"><!-- .col-sm-6 -->
+              <article class="showcase-left"><!-- .showcase-left -->
+                <h4>PRESENTATION DE L’ATELIER DE JOUR</h4>
+
+                <p><strong>L’Atelier de Jour Sport Adapté </strong>est une offre de service alternative pour les personnes en situation de handicap mental et ou psychique et ou troubles associées de tous âges.</p>
+                <p>Elle est en direction de :</p>
+                <ul>
+                  <li>Parents, fratries d’enfants ou adultes déficients intellectuels et ou psychiques qui ne trouvent pas de solutions d’accueil en établissement spécialisé </li>
+                  <li>Personnes isolées et touchées par le handicap mental et ou psychique</li>
+                </ul>
+                <p>En mai 2013,  le Comité dans la déclinaison de la politique fédérale devient <strong> Ligue de la Réunion de Sport Adapté </strong>. Elle compte huit associations de Sport Adapté affiliées. La Ligue représente 250 sportifs. Elle aide à la création et à la gestion de toutes structures associatives pour accueillir  les personnes déficientes intellectuelles et troubles associés.</p>
+              </article><!-- /.showcase-left -->
+            </div><!-- /.col-sm-6 -->
+
+            <div class="col-sm-6"><!-- .col-sm-6-->
+              <article class="de"><!-- .de -->
+                <picture>
+                  <source srcset="image/accueil.png" media="(min-width: 577px)">
+                  <img srcset="image/accueil.png"  alt="responsive image" class="d-block img-fluid" width="600" height="400"  >
+                </picture>
+              </article><!-- /.de -->
+            </div><!-- /.col-sm-6-->
+          </div><!-- /.row -->
+
+          <div class="de"><!-- .de -->
+            <div class="container-fluid" id="contenu qui2"><!-- .container-fluid -->
+              <p>Les objectifs principaux de la Ligue sont : de développer  le secteur non compétitif dans le domaine du sport pour les personnes les plus lourdement atteints, mais aussi le secteur compétitif pour ceux qui en ont les capacités. Nous nous inscrivons dans le cadre d’un sport humaniste.<strong> Grâce aux activités physiques et sportives</strong>, les jeunes et les adultes améliorent  leur condition physique, leur aptitude intellectuelle. 
+              </p>
+              <p> <strong> Le Sport est un puissant vecteur d’intégration </strong> afin d’emmener la personne porteuse d’une déficience vers une intégration sociale.     Aussi minimes soient-ils, les efforts qu’auront accomplis <strong> nos bénéficiaires</strong> seront des victoires sur la vie. Le sport leur permet de briser la logique de l’échec en révélant qu’ils peuvent être <strong>habiles et forts </strong> et qu’ils sont capables <strong>d’apprentissage et de progrès.</strong> 
+              </p>
+              <p>Il s’agit d’alléger la relation de dépendance des personnes en grandes difficultés (intellectuelles, motrices, affectives) vis à vis de l’environnement, afin de permettre au sujet de donner du sens à son action.
+              </p>
+            </div><!-- /.container-fluid -->
+          </div><!-- /.de -->
+        </div><!-- /.qui -->
+      </section><!-- /#contenuaccueil -->
+
+      <section id="offredeservice"><!-- #offredeservice -->
+        <div class ="container-fluid offre1"><!-- .offre1 -->
+          <h2 id="couleur" class="text-center animated slideInLeft ">Offre de Service</h2>
+          <hr class="featurette-divider">
+          <div class="row"><!-- .row -->
+            <div class="col-md-6 col-sm-6"><!-- .col-md-6 -->
+              <h4 id="couleur">Offre de Service est à destination :</h4>
+              <div id="couleur" class="de"><!-- .de -->
+                <ul>
+                  <li>Des personnes déficientes mentales les plus en difficultés</li>
+                  <li>Des personnes qui ne peuvent avoir accès aux autres disciplines sportives</li>
+                  <li>Des déficients mentaux profonds (QI inférieur à 20), avec handicaps physiques ou sensoriels</li>
+                  <li>Des personnes présentant des désordres physchiatriques importants (autisme)</li>
+                  <li>Des personnes veillissantes ou avançant en âge</li>
+                </ul>
+              </div><!-- /.de -->
+            </div><!-- /.col-md-6 -->
+
+            <div class="col-md-6 col-sm-6"><!-- .col-md-6 -->
+              <picture>
+                <source srcset="image/plaisir.png" media="(min-width: 577px)">
+                <img srcset="image/plaisir.png"  alt="responsive image" class="d-block img-fluid" width="600" height="160"  >
+              </picture>
+            </div><!-- /.col-md-6 -->
+          </div><!-- /.row -->
+        </div><!-- /.offre1 -->
+      </section><!-- /#offredeservice -->
+
+      <section id="offredeservice"><!-- #offredeservice -->
+        <h2 class="text-center animated  slideInLeft">Nos Activités  </h2>
+        <hr class="featurette-divider">
+
+        <div class ="container-fluid activite1"><!-- .activite1 -->
+          <div class="soustitre"><!-- .soustitre -->
+            <div class="row"><!-- .row -->
+              <div class="col-sm-3"><!-- .col-sm-3 -->
+                <div class="de"><!-- .de -->
+                  <h5 id="couleur" class="text-center">Des activités éducatives et culturelles</h5>
+                </div><!-- /.de -->
+
+                <div class="de"><!-- .de -->
+                  <p id="couleur">Développer ou maintenir les capacités cognitives avec des ateliers permettant la compréhension, favoriser la prise de parole au sein du groupe.</p>
+                </div><!-- /.de -->
+
+                <div class="de"><!-- .de -->
+                  <img src="image/activite1.png" width="200" height="160" class="img-responsive" >
+                  <img src="image/activite2.png" width="200" height="160" class="img-responsive" >
+                </div><!-- /.de -->
+              </div><!-- /.col-sm-3 -->
+
+              <div class="col-sm-3"><!-- .col-sm-3 -->
+                <div class="de"><!-- .de -->
+                  <h5 class="text-center ">Des activités manuelles et de créativité</h5>
+                </div><!-- /.de -->
+
+                <div class="de"><!-- .de -->
+                  <p>Favoriser l’apprentissage par des activités manuelles alliant créativité, concentration,maintenir la motricité fine et la précision</p>
+                </div><!-- /.de -->
+
+                <div class="de"><!-- .de -->
+                  <img src="image/activite3.png" width="200" height="160" class="img-responsive" >
+                  <img src="image/activite4.png" width="200" height="160" class="img-responsive" >
+                </div><!-- /.de -->
+              </div><!-- /.col-sm-3 -->
+
+              <div class="col-sm-3"><!-- .col-sm-3 -->
+                <div class="de"><!-- .de -->
+                  <h5 id="couleur" class="text-center">Des activités d’expression individuelle ou collective </h5>
+                </div><!-- /.de -->
+
+                <div class="de"><!-- .de -->
+                  <p id="couleur" >Maintenir ou développer les capacités motrices et affectives des bénéficiaires par des activités musicales, de chant, d’expression corporelle,favoriser une meilleure gestuelle et une meilleure relation à l’autre</p>
+                </div><!-- /.de -->
+
+                <div class="de"><!-- .de -->
+                  <img src="image/activite5.png" width="200" height="160" class="img-responsive" >
+                  <img src="image/activite6.png" width="200" height="160" class="img-responsive" >
+                </div><!-- /.de -->
+              </div><!-- /.col-sm-3 -->
+
+              <div class="col-sm-3"><!-- .col-sm-3 -->
+                <div class="de"><!-- .de -->
+                <h5 class="text-center">Des activités physiques et de bien être</h5>
+                </div><!-- /.de -->
+
+                <div class="de"><!-- .de -->
+                  <p >Maintenir ou développer les capacités physiques amenant à une meilleure condition physique, une meilleure image de soi, favoriser le bien-être physique et mental par la pratique d’activité physique et sportive </p>
+                <div class="de"><!-- .de -->
+                  <img src="image/activite7.png" width="200" height="160" class="img-responsive" >
+                  <img src="image/activite8.png" width="200" height="160" class="img-responsive" >
+                </div><!-- /.de -->
+              </div><!-- /.de -->
+            </div><!-- /.col-sm-3 -->
+          </div><!-- /.row -->
+        </div><!-- /.soustitre -->
+      </div><!-- /.activite1 -->
+    </section><!-- /#offredeservice -->
+
+    <section id="equiped"><!-- .equiped -->
+      <hr class="featurette-divider">
+
+      <div class="info-left"><!-- .info-left -->
+        <h2 class="text-center animated  slideInLeft">Notre Equipe </h2>
+        <hr class="featurette-divider">
+        <h4 class="text-center">Une équipe dynamique et volontaire pour répondre au mieux aux besoins de la personne accueillie.</h4>
+      </div><!-- /.info-left -->
+
+      <div class="soustitre"><!-- .soustitre -->
+        <div class ="container-fluid equipe1"><!-- .equipe1 -->
+          <div class="row"><!-- .row -->
+            <div class="col-sm-4"><!-- .col-sm-4 -->
+              <div class="info-left"><!-- .info-left -->
+                <div class="card text-center"><!-- .card -->
+                  <div class="card-header"><!-- .card-header -->
+                    <p id="cardt" class="text-center">Contact pour les formalités d’accueil  <br> Tél : 02 62 29 67 02  </p>
+                  </div><!-- /.card-header -->
+
+                  <div class="card-block"><!-- .card-block -->
+                    <img src="image/equipe1.png" width="200" height="250" class="img-responsive">
+                      <p id="nom">Eva JEAN-BAPTISTE</p>
+                  </div><!-- /.card-block -->
+
+                  <div class="card-footer text-muted"><!-- .card-footer -->
+                    <p>Secrétaire, Chargée administrative</p>
+                    <p> Mail : c.r.974@wanadoo.fr</p>
+                  </div><!-- /.card-footer -->
+                </div><!-- /.card -->
+              </div><!-- /.info-left -->
+            </div><!-- /.col-sm-4 -->
+
+            <div class="col-sm-4"><!-- .col-sm-4 -->
+              <div class="info-left"><!-- .info-left -->
+                <div class="card text-center"><!-- .card -->
+                  <div class="card-header"><!-- .card-header -->
+                    <p id="cardt" class="text-center">Contact pour l’accueil et l’accompagnement des usagers <br>Tél : 06 92 65 20 86</p>
+                  </div><!-- /.card-header -->
+
+                  <div class="card-block"><!-- .card-block -->
+                    <img src="image/equipe2.png" width="200" height="250" class="img-responsive" >
+                    <p id="nom">Willy REMPHAN</p>
+                  </div><!-- /.card-block -->
+
+                  <div class="card-footer text-muted"><!-- .card-footer -->
+                    <p>Assistant en animation</p>
+                    <p>Chargé du transport des usagers </p>
+                  </div><!-- /.card-footer -->
+                </div><!-- /.card -->
+              </div><!-- /.info-left -->
+            </div><!-- /.col-sm-4 -->
+
+            <div class="col-md-4 col-sm-4"><!-- .col-sm-4 -->
+              <div class="info-left"><!-- .info-left-->
+                <div class="card text-center"><!-- .card -->
+                  <div class="card-header"><!-- .card-header -->
+                    <p  id="cardt" class="text-center">Contact pour l’accueil et l’accompagnement des usagers <br>Tél : 06 92 65 20 86</p>
+                  </div><!-- /.card-header -->
+
+                  <div class="card-block"><!-- .card-block -->
+                    <img src="image/equipe3.png" width="200" height="250" class="img-responsive" >
+                    <p id="nom">Jimmy RODES</p>
+                  </div><!-- /.card-block -->
+
+                  <div class="card-footer text-muted"><!-- .card-footer-->
+                    <p>Agent de cuisine, </p>
+                    <p>Chargé de l’entretien des locaux  </p>
+                  </div><!-- /.card-footer-->
+                </div><!-- /.card -->
+              </div><!-- /.info-left-->
+            </div><!-- /.col-sm-4 -->
+          </div><!-- /.row -->
+        </div><!-- /.equipe1 -->
+
+        <div class ="container-fluid equipe4"><!-- .equipe4 -->
+          <div class="soustitre"><!-- .soustitre -->
+            <p id="tech" class="text-center">
+              <strong>Les techniciens en animation :</strong><br>
+              Activités physiques et sportives, éducation et santé
+            </p>
+
+            <div class="row"><!-- .row -->
+              <div class="col-sm-4" id="equipegroupe"><!-- .col-sm-4 -->
+                <div class="de"><!-- .de -->
+                  <p class="text-center" id="nom1">Emmanuel ETHEVE </p>
+                  <img src="image/equipe4.jpg" width="200" height="250" class="img-responsive" >
+                </div><!-- /.de -->
+              </div><!-- /.col-sm-4 -->
+
+              <div class="col-sm-4" id="equipegroupe"><!-- .col-sm-4 -->
+                <div class="de"><!-- .de -->
+                  <p class="text-center" id="nom1">Dimitri PRIANON</p>
+                  <img src="image/equipe6.png" width="200" height="250" class="img-responsive" >
+                </div><!-- /.de -->
+              </div><!-- /.col-sm-4 -->
+
+              <div class="col-sm-4" id="equipegroupe"><!-- .col-sm-4 -->
+                <div class="de"><!-- .de -->
+                  <p class="text-center" id="nom1">Nadège BASSO </p>
+                  <img src="image/equipe7.png" width="200" height="250" class="img-responsive" >
+                </div><!-- /.de -->
+              </div><!-- /.col-sm-4 -->
+            </div><!-- /.row -->
+          </div><!-- /.soustitre -->
+        </div><!-- /.equipe4 -->
+      </div><!-- /.soustitre -->
+
+      <div class ="container-fluid accueilsud"><!-- .accueilsud -->
+        <div class="soustitre"><!-- .soustitre -->
+          <div class="de"><!-- .de -->
+            <h3 class="text-center animated  slideInLeft">Atelier de jour sur Saint-Pierre </h3>
+          </div><!-- /.de -->
+          <hr class="featurette-divider">
+        </div><!-- /.soustitre -->
+
+        <div class="row"><!-- .row -->
+          <div class="col-sm-4"><!-- .col-sm-4 -->
+            <div class="info-left"><!-- .info-left -->
+              <p>
+                Atelier de jour sur Saint-Pierre avec le Club Sport Adapté de Saint-Pierre « Boug ensemb» <br>
+                Infos : 06 93 10 08 46
+              </p>
+            </div><!-- /.info-left -->
+          </div><!-- /.col-sm-4 -->
+
+          <div class="col-sm-4" id="equipegroupe"><!-- .col-sm-4 -->
+            <div class="info-left"><!-- .info-left -->
+              <p class="text-center" id="nom1">Rachel GRENIER - BALISTE </p>
+              <img src="image/equipe8.png" width="200" height="250" class="img-responsive" >
+            </div><!-- /.info-left -->
+          </div><!-- /.col-sm-4 -->
+
+          <div class="col-sm-4" id="equipegroupe"><!-- .col-sm-4 -->
+            <div class="info-left"><!-- .info-left -->
+              <p class="text-center" id="nom1"> Damien ETHEVE</p>
+              <img src="image/equipe9.png" width="200" height="250" class="img-responsive">
+            </div><!-- /.info-left -->
+          </div><!-- /.col-sm-4 -->
+        </div><!-- /.row -->
+      </div><!-- /.accueilsud -->
+    </section><!-- /.equiped -->
+
+    <section id="JOUR"><!-- #JOUR -->
+      <hr class="featurette-divider">
+
+      <div class="de"><!-- .de -->
+        <h2 class="text-center">Jours et Types d'accueil</h2>
+      </div><!-- /.de -->
+      <hr class="featurette-divider">
+
+      <div class="container-fluid typeaccuiel"><!-- .type-accueil -->
+        <div class="de"><!-- .de -->
+          <p><strong>Le Mercredi, Jeudi et Vendredi de <u>8 heures à 16 heures</u></strong> En période scolaire  (Février à Juillet   -  Août à Décembre</p>
+          <p>Accueil comprenant le  petit-déjeuner, déjeuner et gouter, les activités sur site ou en  milieu ouvert (gratuit au public ou sur réservation).</p>
+        </div><!-- .de -->
+
+        <div class="row"><!-- .row -->
+          <div class="col-sm-6"><!-- .col-sm-6 -->
+            <div class="info-left"><!-- .info-left -->
+              <h3>Formalités administratives : </h3>
+              <p><u>A renseigner : </u></p>
+              <ul>
+                <li>Feuille d’inscription </li>
+                <li>Feuille d’engagement </li>
+              </ul>
+              <p><u>A fournir : </u></p>
+              <ul>
+                <li>La carte d’invalidité du bénéficiaire</li>
+                <li>Ou la notification de la MDPH (Maison Départementale des Personnes  Handicapées) indiquant le taux d’invalidité</li>
+                <li>Le certificat médical de la Fédération Française du Sport Adapté</li>
+              </ul>
+              <p>Règlements acceptés : Chèque, espèce, virement et Pass’loisirs</p>
+            </div><!-- /.info-left -->
+          </div><!-- /.col-sm-6 -->
+
+          <div class="col-sm-6"><!-- .col-sm-6 -->
+            <div class="info-right"><!-- .info-right -->
+              <h3>Tarifs appliqués :  </h3>
+              <p><strong>Une adhésion annuelle </strong> est demandée d’un montant de 52 €. Elle comprend :</p>
+              <ul>
+                <li>La licence individuelle du bénéficiaire à la Fédération FFSA avec la couverture assurance Responsabilité Civile</li>
+                <li>L’adhésion à l’association sport adapté de la ville : Association Espace Handicap Dionysien</li>
+              </ul>
+
+              <h3>Tarifs appliqués :</h3>
+              <p>A laquelle s’ajoute une facturation mensuelle en fonction du nombre de jours d’accueil durant  le mois </p>
+              <ul>
+                <li>25 €  l’accueil de 2 et 3 jours  par semaine </li>
+                <li>ou 30 € l’accueil d’une journée par semaine</li>
+              </ul>
+            </div><!-- /.info-right -->
+          </div><!-- /.col-sm-6 -->
+
+          <div class="row"><!-- .row -->
+            <div class="col-sm-6"><!-- .col-sm-6 -->
+              <div class="de"><!-- .de -->
+                <p><em>Vous êtes  handicapés à + de 80% et éprouvez  des difficultés   pour vous véhiculer ou véhiculer la personne sur l’accueil de jour : Un service de transport adapté, partenaire est possible (voir conditions avec le secrétariat).</em></p>
+              </div><!-- /.de -->
+            </div><!-- /.col-sm-6 -->
+
+            <div class="col-md-6 col-sm-6"><!-- .col-sm-6 -->
+              <div class="info-left"><!-- .info-left -->
+                <img src="image/cityker.png" width="300" height="150" class="img-responsive" >
+              </div><!-- /.info-left -->
+            </div><!-- /.col-sm-6 -->
+          </div><!-- /.row -->
+        </div><!-- /.row -->
+      </div><!-- /.type-accueil -->
+    </section><!-- /#JOUR -->
+
+    <section><!-- #JOUR -->
+      <hr class="featurette-divider">
+      <div class="de"><!-- .de -->
+        <h2 class="text-center">Nos Partenaires</h2>
+      </div><!-- /.de -->
+      <hr class="featurette-divider">
+      <article class="container-fluid part"><!-- .part -->
+        <div class="de"><!-- .de -->
+          <div class="row" id="patt"><!-- .row -->
+            <div class="col-sm-1"></div>
+
+            <div class="col-sm-2"><!-- .col-sm-2 -->
+              <img src="image/parte/cnds.png" class="img-responsive" width="120" height="90" >
+            </div><!-- /.col-sm-2 -->
+
+            <div class="col-sm-2"><!-- .col-sm-2 -->
+              <img src="image/parte/asp.png" class="img-responsive" width="220" height="120">
+            </div><!-- /.col-sm-2 -->
+
+            <div class="col-sm-2"><!-- .col-sm-2 -->
+              <img src="image/parte/conseil.jpg" class="img-responsive" width="100" height="100">
+            </div><!-- /.col-sm-2 -->
+
+            <div class="col-sm-2"><!-- .col-sm-2 -->
+              <img src="image/parte/region.png" class="img-responsive" width="100" height="100">
+            </div><!-- /.col-sm-2 -->
+
+            <div class="col-sm-2"><!-- .col-sm-2 -->
+              <img src="image/parte/villesaintdenis.png" class="img-responsive" width="100" height="100">
+            </div><!-- /.col-sm-2 -->
+          </div><!-- /.row -->
+        </div><!-- /.de -->
+      </article><!-- /.part -->
+    </section><!-- /#JOUR -->
+
+    <footer class="Footer"><!-- .Footer -->
+      <div class="container-fluid contact"><!-- .contact -->
+        <div class="row"><!-- .row -->
+          <div class="col-sm-2 logofoot"><!-- .col-sm-2 -->
+            <img src="image/logoK.png"  width="130" height="252" alt="Logo ">
+          </div><!-- /.col-sm-2 -->
+
+          <div class="col-sm-4 footerleft"><!-- .col-sm-4 -->
+            <h3>A chacun son defi </h3>
+            <p><i class="fa fa-map-pin"></i>75, Boulevard Saint-François <br>97400 Saint Denis </S> </p>
+            <p><i class="fa fa-phone"></i> Téléphone : 0262 29 67 02</p>
+          </div><!-- /.col-sm-4 -->
+
+          <div class="col-sm-2 paddingtop-bottom"><!-- .col-sm-2 -->
+            <h6 class="heading7">Menu</h6>
+              <ul class="footer-ul"><!-- .footer-ul -->
+                <li class="nav-item active"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="laligue.html">La Ligue </a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"  href="#section3" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Offre sportive</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><!-- .dropdown-menu -->
+                    <a class="dropdown-item" href="sportcompetitif.html">Sport Compétitif</a>
+                    <a class="dropdown-item" href="sportnoncompetitif.html">Sport Non Compétitif</a>
+                    <a class="dropdown-item" href="sportloisir.html">Sport loisir</a>
+                  </div><!-- /.dropdown-menu -->
+                </li>
+                <li class="nav-item"><a class="nav-link" href="association.html">Les assocations</a></li>
+                <li class="nav-item"><a class="nav-link" href="formation.html">Formation</a></li>
+                <li class="nav-item"><a class="nav-link" href="galerie.html">Portefolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="agenda.html">Agenda</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              </ul><!-- /.footer-ul -->
+            </div><!-- /.col-sm-2 -->
+
+            <div class="col-sm-4 map"><!-- .map -->
+              <h6 class="heading7">Nous suivre :</h6>
+              <a href="https://www.facebook.com/Ligue-R%C3%A9unionnaise-du-Sport-Adapt%C3%A9-128165690574197/"><img src="image/pictogramme/Facebook.png" alt></a>
+            </div><!-- /.map -->
+          </div><!-- /.row -->
+        </div><!-- /.contact -->
+      </footer><!-- /.Footer -->
+    </main><!-- /.Main -->
+
+    <!-- TODO: Un seul JS pour les gouverner tous -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+    <script type="text/javascript" src="bootstrap/dist/js/bootstrap.js" ></script>
+    <script type="text/javascript" src="js/monscript.js" ></script>
+    <script type="text/javascript" src="js/scrollreveal.min.js" ></script>
+    <script type="text/javascript" src="js/lightbox.js" ></script>
+    <script type="text/javascript" src="js/portefolio.js" ></script>
+    <script type="text/javascript" src="js/foxholder.js" ></script>
+    <script type="text/javascript" src="js/foxholder.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.navbar', {
+        duration: 2000,
+        origin:'bottom'
+      });
+      sr.reveal('.showcase-left', {
+        duration: 2000,
+        origin:'top',
+        distance:'10px'
+      });
+      sr.reveal('.showcase-right', {
+        duration: 2000,
+        origin:'right',
+        distance:'10px'
+      });
+      sr.reveal('.showcase-btn', {
+        duration: 2000,
+        delay: 2000,
+        origin:'bottom'
+      });
+      sr.reveal('.de', {
+        duration: 2000,
+        origin:'bottom'
+      });
+      sr.reveal('.info-left', {
+        duration: 2000,
+        origin:'left',
+        distance:'60px',
+        viewFactor: 0.2
+      });
+      sr.reveal('.info-right', {
+        duration: 2000,
+        origin:'right',
+        distance:'10px',
+        viewFactor: 0.2
+      });
+    </script>
+
+    <script>
+      jQuery('.your-class').foxholder({
+        demo: 15 //or other number of demo (1-15) you want to use
+      });
+    </script>
+  </body>
+</html>
